@@ -3,9 +3,10 @@ Handling Google APIs in Vue.js project
 
 Ths is a simple wrapper around [Google API Client Library for Javascript](https://github.com/google/google-api-javascript-client) for use in Vue.js project. 
 
-While I was prototyping a side-project I needed to a `YouTube Data API` and `Google Auth`  to perform actions on behalf of a Google user. 
+While I was prototyping a side-project I needed to access `YouTube Data API` and `Google Auth` to perform actions on behalf of a Google user. 
 
-The existing plugins I found were either outdated or doing too less (oAuth only) or too much (deciding how I should I have managed user session) so I wrote my own plugin being totally new to Vue and frontend development in general.
+The existing plugins I found were either outdated or doing too less (oAuth only) or too much (deciding how I should I have managed user session). 
+So I wrote my own plugin being totally new to Vue and frontend development in general.
 
 ## Installation
 
@@ -17,7 +18,7 @@ The existing plugins I found were either outdated or doing too less (oAuth only)
 // src main.js
 import Gapi from 'vue-googleapis'
 Vue.use(Gapi, {
-  apiKey: '<APIKEY>'
+  apiKey: '<APIKEY>',
   clientId: '<CLIENT_ID>.apps.googleusercontent.com',
   discoveryDocs: ['https://www.googleapis.com/discovery/v1/apisyoutube/v3/rest'],
   scope: 'https://www.googleapis.com/auth/youtube',
