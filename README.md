@@ -31,7 +31,7 @@ The options passed to `Vue.use` are used to initialise the client, check the [do
 
 ## Usage
 
-The pluging add a `$google` object to the Vue instance. This object has to property
+The pluging add a `$google` object to the Vue instance. This object has two properties
 
 `isInit` (boolean) : Determine if the api libraries has been loaded. **Please make sure the value is set to true before using the client**
 
