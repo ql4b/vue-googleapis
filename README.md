@@ -5,7 +5,7 @@ Ths is a simple wrapper around [Google API Client Library for Javascript](https:
 
 While I was prototyping a side-project I needed to a `YouTube Data API` and `Google Auth`  to perform actions on behalf of a Google user. 
 
-The existing plugins I found were ether outdated or doing too less (oAuth only) or too much (deciding I should I have managed user session) so I wrote my own plugin being totally new to Vue and frontend development in general.
+The existing plugins I found were either outdated or doing too less (oAuth only) or too much (deciding how I should I have managed user session) so I wrote my own plugin being totally new to Vue and frontend development in general.
 
 ## Installation
 
