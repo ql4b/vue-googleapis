@@ -1,6 +1,6 @@
 {
   "name": "vue-googleapis",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Handling Google APIs in Vue.js projects",
   "main": "index.js",
   "scripts": {
@@ -8,15 +8,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@ql4b.github.com:ql4b/vue-googleapis.git"
+    "url": "git+https://@ql4b.github.com:ql4b/vue-googleapis.git"
   },
   "keywords": [
     "google",
+    "api",
     "apis",
     "google apis",
+    "google api",
     "vue",
     "plugin"
   ],
   "author": "Carlo D'Ambrosio <carlo@ql4b.net>",
+  "homepage": "https://github.com/ql4b/vue-googleapis#readme",
+  "bugs": {
+    "url": "https://github.com/ql4b/vue-googleapis/issues"
+  },
   "license": "MIT"
 }
